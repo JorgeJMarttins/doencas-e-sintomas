@@ -1,6 +1,4 @@
-# README
-
-## API de Sintomas Médicos
+# API de Sintomas Médicos
 
 Este projeto é uma aplicação simples em Express.js que fornece informações sobre várias doenças e seus sintomas associados. Ele serve como uma API que permite aos usuários consultar uma lista de doenças, cada uma com seus respectivos sintomas.
 

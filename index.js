@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 const port = 3000;
 
-const medicamentos = [
+const doencas = [
     {
       "doenca": "Hipertensão",
       "sintomas": ["Dor de cabeça", "Tontura", "Falta de ar", "Visão turva", "Dor no peito"]
@@ -208,7 +208,7 @@ const medicamentos = [
   
 // Route to get the list of diseases and symptoms
 app.get('/doencas', (req, res) => {
-    res.json(medicamentos);
+    res.json(doencas);
   });
   
   // Starting the server on the specified port
